@@ -1,0 +1,11 @@
+{
+  "item.transferpet.contract": "Contratto vuoto",
+  "item.transferpet.filled_contract": "Contratto di proprietà",
+  "text.transferpet.contract_fail": "Non puoi creare un contratto per questa creatura!",
+  "text.transferpet.contract_invalid": "Questo contratto non è valido per questa creatura!",
+  "text.transferpet.same_owner": "Non puoi usare un contratto per un pet che già possiedi!",
+  "text.transferpet.tooltip_pet": "Nome del pet: ",
+  "text.transferpet.tooltip_owner": "Proprietario originale: ",
+  "text.transferpet.message_old_owner": "Hai trasferito la prorprietà di %s a %s.",
+  "text.transferpet.message_new_owner": "La proprietà di %s ti è stata trasferita."
+}

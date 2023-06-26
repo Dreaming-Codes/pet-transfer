@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "codes.dreaming.transferpet.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "AnimalEntityMixin",
+    "MobEntityMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "transferpet",
+  "version": "${version}",
+
+  "name": "Pet Transfer",
+  "description": "A mod that lets you create contracts that transfer ownership of pets and other tameables.",
+  "authors": [
+    "DreamingCodes"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/repet-transfer/",
+    "sources": "https://github.com/Dreaming-Codes/pet-transfer"
+  },
+
+  "license": "MIT",
+  "icon": "assets/transferpet/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "codes.dreaming.transferpet.PetTransfer"
+    ]
+  },
+  "mixins": [
+    "transferpet.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  },
+  "suggests": {}
+}
